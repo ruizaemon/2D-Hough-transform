@@ -1,1 +1,1 @@
-# 2D hough transform
+# 2D Hough transform
