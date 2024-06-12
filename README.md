@@ -9,3 +9,6 @@ As the size of the discretized ab accumulator array depends on the gradient $a$ 
 ## Normal representation
 
 The normal representation of the Hough transform uses the $\rho\theta$ space from the equation $\rho = x_i\cos(\theta)+y_i\sin(\theta)$ which solves the above issue as $\theta$ can be restricted to the range $-90\degree < \theta \leq 90\degree$. 
+
+The `ht_plot_aligned` function in the [rt representation](https://github.com/ruizaemon/2D-hough-transform/blob/main/hough_transform_rt_run.m) aligns the boundary of the original image to the lines found from the rt hough transform. 
+
