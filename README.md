@@ -1,4 +1,4 @@
-# 2D Hough transform for line detection
+# 2D Hough transform for line detection (MATLAB)
 
 ## Slope-intercept representation
 
@@ -12,3 +12,6 @@ The normal representation of the Hough transform uses the $\rho\theta$ space fro
 
 The `ht_plot_aligned` function in the [rt representation](hough_transform_rt_run.m) aligns the boundary of the original image to the lines found from the rt hough transform. 
 
+## Other related algorithms
+
+Other algorithms for image processing and analysis include chain codes and distance-angle functions for boundary representation, and the intermeans algorithm for automatic global threshold selection.
